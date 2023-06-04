@@ -1,0 +1,546 @@
+:root{
+    --midnight-green: #014e56;
+    --light-coral: #f67e7e;
+    --white: #fff;
+    --rapture-blue: #79c8c7;
+    --police-blue: #2c6269;
+    --deeb-jungle-green: #004047;
+    --socramento-state-green: #012f34;
+    --dark-green: #002529;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contener{
+    position: relative;
+    width: 100%;
+    max-width: 1150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.body {
+    font-size: 15px;
+    background-color: var(--midnight-green);
+    font-family: 'Livvic', sans-serif;
+    color: var(--white);
+    overflow-x: hidden;
+}
+
+.img-position{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: -127px;
+}
+.header-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 77px 0px;
+    
+}
+.header-box-item{
+    display: flex;
+    align-items: center;
+}
+.myteam-icon {
+    margin-right: 80px;
+}
+.myteam-icon:hover{
+    opacity: 0.7;
+    
+}
+.header-list {
+    display: flex;
+    align-items: center;
+}
+.home{
+    margin-right: 40px;
+}
+.header-list-item {
+    list-style: none;
+}
+.header-list-item-link {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600; 
+    transition: color 0.7s ease;
+}
+.header-list-item-link:hover{
+    color: var(--light-coral);
+}
+.box-a{
+    border: 2px solid var(--white);
+    border-radius: 24px;
+    background-color: var(--midnight-green);
+    color: var(--white);
+    padding: 9px 33px 11px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: background-color 1s ease, color 1s ease;
+    text-decoration: none;
+}
+.box-a:hover{
+    background-color: white;
+    color: var(--midnight-green);
+}
+.paragraf-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.talent{
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-right: 30px;
+    width: 635px;
+}
+.paragraf-one{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    width: 445px;
+}
+.main{
+    padding-top: 90px;
+}
+.red{
+    color: var(--light-coral);
+}
+.group-img{
+    display: flex;
+    justify-content: right;
+}
+.chiziq{
+    border: 1px solid white;
+    height: 1px;
+    width: 50px;
+    margin-bottom: 77px;
+    border-radius: 7px;
+}   
+.section{
+    background-color: var(--socramento-state-green);
+}
+.box-contener{
+    position: relative;
+    padding: 140px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.build{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.line{
+    background-color: var(--light-coral);
+    height: 4px;
+    width: 50px;
+    margin-bottom: 54px;
+}
+.section-contener-box{
+    width: 446px;
+}
+.list-wrapper-child{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.section-contener-list{
+    display: flex;
+    align-items: end;
+    padding-top: 58px;
+}
+.individuals{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: var(--light-coral);
+    margin-bottom: 16px;
+}
+.our{
+    width: 445px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.8;
+}
+.boy{
+    margin-right: 23px;
+}
+.list-wrapper-child:not(:last-child){
+    margin-bottom: 32px;
+}
+.bg-right{
+    position: absolute;
+    right: -200px;
+    top: 440px;
+}
+.results{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    width: 932px; 
+    margin-bottom: 92px;
+}
+.cucces{
+    color: var(--rapture-blue);
+}
+.section-review{
+    padding:140px 0px ;
+}
+.reviews{
+    position: absolute;
+    left: -100px;
+    top: -140px;
+}
+.section-box{
+    text-align: center;
+}
+.listing {
+    display: flex;
+    align-items: center;
+    width: 355px;
+}
+
+.listing-child {
+    list-style: none;
+    position: relative;
+}
+.listing-child:not(:last-child){
+    margin-right: 30px;
+}
+.name{
+    background-color: var(--midnight-green);
+}
+.paragraf {
+    width: 355px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.baker{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: var(--rapture-blue);
+    margin-bottom: 2px;
+}
+.at{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 32px;
+}
+.q{
+    position: absolute;
+    top: -36px;
+    z-index: -1;
+    left: 147px;
+}
+.bg-img-a{
+    position: absolute;
+    right: -100px;
+    bottom: -241px;
+    z-index: -1;
+}
+.redy {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 76px 0px;
+    background-color: var(--light-coral);
+}
+.oval {
+    position: absolute;
+    left: -99px;
+    top: -23px;
+    /* z-index: -1; */
+}
+.get {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--socramento-state-green);
+}
+.button{
+    background-color: var(--light-coral);
+    border-color: var(--socramento-state-green) ;
+    color:var(--socramento-state-green);
+    transition: background-color 1s ease, color 1s ease, border-color 1s ease;
+}
+.button:hover {
+    background-color: var(--deeb-jungle-green);
+    color: var(--white);
+    border-color: #79c8c7;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    padding: 48px 0px;
+    background-color: var(--dark-green);
+}
+.logotip{
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.footer-box{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+.footer-list-child {
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+}
+.icon-footer {
+    display: inline-block;
+}
+.icon-footer:not(:last-child){
+    margin-right: 16px;
+}
+.all {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: right;
+    opacity: 0.6;
+}
+.box-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-footer-wrapper{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 51px;
+}
+
+/* about */
+.about-contener{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    margin-bottom: 100px;
+}
+.about-paragraf{
+    width: 730px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px; 
+}
+.about-title{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    
+}
+.hr-line{
+    height: 4px;
+    width: 50px;
+    background-color: var(--light-coral);
+    border: none;
+    margin-bottom: 40px;
+}
+.position-bgi{
+    position: absolute;
+    right: -200px;
+    top: 96px;
+}
+.directors{
+    background-color: var(--deeb-jungle-green);
+}
+.meet{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 64px;
+    
+}
+.contener-grid{
+    padding: 140px 0px;
+}
+.relative-bgi{
+    position: absolute;
+    top: 0;
+    left: -199px;
+}
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: auto
+    auto auto ;
+    gap: 76px 30px;
+}
+.grid-template {
+    position: relative;
+    text-align: center;
+    width: 350px;
+    background-color: var(--socramento-state-green);
+    padding: 32px 0px 56px;
+}
+.founder{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+    
+}
+.man {
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.name-b {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: var(--rapture-blue);
+}
+.aylana{
+    position: absolute;
+    left: 150px;
+    bottom: -27px;
+    background-color: var(--light-coral);
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    color: #002529;
+    font-weight: 500;
+    font-size: 36px;
+    border: none;
+}
+.set{
+    font-style: normal;
+    width: 254px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 24px;
+}
+.allan{
+    margin-bottom: 8px;
+}
+.icon-svg-t{
+    margin-right: 16px;
+}
+.iks{
+    font-size: 20px;
+    background-color: var(--rapture-blue);
+}
+.font-section{
+    padding: 140px 0px;
+    background-color: var(--socramento-state-green);
+}
+.cilients-circle{
+    position: absolute;
+    left: -98px;
+    top: -140px;
+}
+.some{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.fonts-img-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.oval-img-bg{
+    position: absolute;
+    left: -200px;
+    top: 25px;
+}
+.contener-contact{
+    display: flex;
+    justify-content: space-between;
+padding-bottom: 120px;
+}
+.contact-title{
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 100px;
+}
+.us{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+       color: var(--light-coral);
+       margin-bottom: 54px;
+}
+.ask-task {
+    width: 540px;
+}
+
+.contackt-input {
+    background-color: var(--midnight-green);
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: -0.11538461595773697px;
+        opacity: 0.6;
+    width: 540px;
+    padding: 16px 10px;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.input{
+    padding-bottom: 58px;
+    margin-bottom: 24px;
+}
+.submit{
+    height: 48px;
+        width: 123px;
+        border: none;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 28px;
+        border-radius: 24px;
+        color: var(--deeb-jungle-green);
+}
+.individual{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+}
+.boy-contact{
+    margin-bottom: px;
+}
+.list-child-contact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    list-style: none;
+}
+.group-img-bgi{
+    position: absolute;
+    right: -199px;
+    top: 337px;
+}
